@@ -15,7 +15,7 @@ import { GameHistoryScreen } from './components/GameHistoryScreen';
 import { ResultsTestScreen } from './components/ResultsTestScreen';
 import { MyPostsScreen } from './components/MyPostsScreen';
 import { FeedbackWidget } from './components/FeedbackWidget';
-import { toast } from 'sonner@2.0.3';
+import { toast } from 'sonner';
 
 type Screen = 
   | 'onboarding' 
