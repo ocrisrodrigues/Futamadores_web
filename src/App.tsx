@@ -15,6 +15,7 @@ import { GameHistoryScreen } from '../components/GameHistoryScreen';
 import { ResultsTestScreen } from '../components/ResultsTestScreen';
 import { MyPostsScreen } from '../components/MyPostsScreen';
 import { FeedbackWidget } from '../components/FeedbackWidget';
+import { Toaster } from '../components/ui/sonner';
 import { toast } from 'sonner';
 
 type Screen = 
@@ -488,6 +489,9 @@ function App() {
         position="bottom-right" 
         isTestMode={true} 
       />
+
+      {/* Toaster para notificações */}
+      <Toaster />
     </div>
   );
 }
